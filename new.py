@@ -1,4 +1,4 @@
-x = 1
-y = 2
-uni_price = 3
-print(x + y + uni_price)
+students_count = 1000
+rating = 4.99
+is_done = true
+print(students_count)

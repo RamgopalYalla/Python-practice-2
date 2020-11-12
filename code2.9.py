@@ -1,3 +1,3 @@
 x = input("x: ")
-y = (x) + 1
+y = int(x) + 1
 print(y)

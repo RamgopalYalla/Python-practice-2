@@ -3,4 +3,4 @@ if 10 == "10":
 elif "bag" > "apple" and "bag" > "cat":
     print("b")
 else:
-    print("c")
+    print("cannot decide")

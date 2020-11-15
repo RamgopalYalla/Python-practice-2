@@ -7,5 +7,5 @@ def get_message(name):
 
 
 message = get_message("Ramgopal")
-file = open("content.txt", "w")
+file = open("../content.txt", "w")
 file.write(message)

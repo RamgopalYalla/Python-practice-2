@@ -6,3 +6,4 @@ for x in range(1,41):
 
 for x in [1, 4]:
     print(x)
+

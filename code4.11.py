@@ -1,8 +1,11 @@
 def fizz_buzz(input):
+    if (input % 3 == 0) and (input % 5 == 0):
+        return "FizzBuzz"
     if input % 3 == 0:
-        return "fizz"
+        return "Fizz"
+    if input % 5 == 0:
+        return "Buzz"
+    return input
 
-    return "buzz"
+print(fizz_buzz(3))
 
-
-print(fizz_buzz(7))

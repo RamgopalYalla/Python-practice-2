@@ -4,5 +4,5 @@ items = [
     ("product3", 15),
 ]
 
-prices = list(map(lambda item: item[1], items))
-print(prices)
+filtered = list(filter(lambda item: item[1] >= 10, items))
+print(filtered)

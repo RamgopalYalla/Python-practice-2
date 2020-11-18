@@ -20,8 +20,7 @@ def calculate_xfactor(age):
 
 
 
- sfactor = calculate_xfactor(-1)
- if xfactor == None:
+ 
      pass
 
 """

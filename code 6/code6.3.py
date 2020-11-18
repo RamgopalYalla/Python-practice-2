@@ -12,17 +12,6 @@ try:
 except ValueError as error:
     pass
 """
-code2 = """
-def calculate_xfactor(age):
-    if age <= 0:
-        return None
-    return 10 / age
 
-
-
- 
-     pass
-
-"""
 
 print(timeit(code1, number=10000))

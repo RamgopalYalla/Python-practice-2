@@ -1,4 +1,3 @@
-def addition(num):
-	return num + 1
-
-print(addition(2))
+def how_many_seconds(hours):
+		return hours * 3600
+print(how_many_seconds)

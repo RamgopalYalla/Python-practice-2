@@ -9,3 +9,6 @@ class Point:
     def draw(self):
         print(f"Point ({self.x}, {self.y})")
 
+
+point = Point(0, 0)
+point.draw()

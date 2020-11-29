@@ -1,6 +1,4 @@
-x = 10
-y = 12
+def addition(num):
+	return num + 1
 
-x, y = y, x
-
-print(x, y)
+print(addition(2))
